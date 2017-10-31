@@ -7,7 +7,6 @@
 
 from scrapy import Item, Field
 
-
 class BooksItem(Item):
     name = Field()
     price = Field()
